@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="card" id="formulario-pergunta">
+        <div class="card-header">
+            <h3>Realizar Pergunta</h3>
+        </div>
+        <div class="card-body">
+            <form method="post" action="/salvarpergunta">
+                <label for="titulo">Título</label>
+                <input type="text" class="form-control" placeholder="Qual é a sua pergunta?"
+                    title="Insira sua pergunta aqui." name="titulo">
+                <br>
+                <label for="descricao">Descrição</label>
+                <textarea type="text" class="form-control" placeholder="Descreve sua pergunta aqui..."
+                    title="Área para descrever sua pergunta." name="descricao"></textarea>
+                <br>
+                <input type="submit" class="btn btn-primary" title="Clique para enviar sua pergunta." name="enviar">
+            </form>
+        </div>
+    </div>
+</div>
